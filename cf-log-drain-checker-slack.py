@@ -77,4 +77,4 @@ if __name__ == '__main__':
         "text": '\n'.join(output)
     }
 
-    #response = requests.post(SLACK_URL, data=json.dumps(data))
+    response = requests.post(SLACK_URL, data=json.dumps(data))
